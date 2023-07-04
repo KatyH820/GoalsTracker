@@ -39,6 +39,7 @@ export default function PopUp(props) {
           <CustomButton
             value="Cancel"
             onPress={() => {
+              setInputText("");
               props.setShowModal(!props.displayModal);
             }}
           />
